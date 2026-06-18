@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>William Estevam — Graphic Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">WE<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#work" data-i18n="nav_work">Work</a></li>
+      <li><a href="#about" data-i18n="nav_about">About</a></li>
+      <li><a href="#services" data-i18n="nav_services">Services</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+      <span class="lang-option" id="langEN">EN</span>
+      <span class="lang-divider">|</span>
+      <span class="lang-option" id="langPT">PT</span>
+      <span class="lang-divider">|</span>
+      <span class="lang-option" id="langFR">FR</span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <p class="hero-eyebrow" data-i18n="hero_eyebrow">Graphic Designer — Branding &amp; Visual Identity</p>
+    <h1 class="hero-title">
+      <span data-i18n="hero_title_1">Crafting</span><br>
+      <span class="outline" data-i18n="hero_title_2">Brands</span><br>
+      <span data-i18n="hero_title_3">That Last</span>
+    </h1>
+    <p class="hero-sub" data-i18n="hero_sub">
+      Based in Brazil — I design visual identities, packaging, and print that make brands impossible to ignore.
+    </p>
+    <div class="hero-cta">
+      <a href="#work" class="btn-primary" data-i18n="hero_cta_work">View Work</a>
+      <a href="#contact" class="btn-ghost" data-i18n="hero_cta_contact">Get in touch</a>
+    </div>
+    <div class="hero-scroll" data-i18n="hero_scroll">Scroll</div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="work-header reveal">
+      <h2 class="work-title" data-i18n="work_title">Selected<br>Work</h2>
+      <span class="work-count" data-i18n="work_count">08 Projects</span>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal" data-images="assets/kapiiguara.jpg">
+        <div class="project-bg" style="background-image: url('assets/kapiiguara.jpg');"></div>
+        <div class="project-placeholder">01</div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="tag_menu_design">Menu Design</p>
+          <h3 class="project-name">Kapiiguara — Bar e Microcervejaria</h3>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-images="assets/lucas_anjos_4.png,assets/lucas_anjos_3.png,assets/lucas_anjos_2.png,assets/lucas_anjos_1.png,assets/lucas_anjos_mockup_mug.png,assets/lucas_anjos_mockup_cards.jpg,assets/lucas_anjos_mockup_wall.jpg">
+        <div class="project-bg" style="background-image: url('assets/lucas_anjos_4.png');"></div>
+        <div class="project-placeholder">02</div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="tag_brand_identity">Brand Identity</p>
+          <h3 class="project-name">Lucas Anjos — Fisioterapia Pélvica</h3>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-images="assets/mfe_1_mug.jpg,assets/mfe_2_hardhat.jpg,assets/mfe_3_polo.jpg,assets/mfe_4_cards.jpg">
+        <div class="project-bg" style="background-image: url('assets/mfe_1_mug.jpg');"></div>
+        <div class="project-placeholder">03</div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="tag_brand_identity">Brand Identity</p>
+          <h3 class="project-name">MFE — Pré-moldados</h3>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-images="assets/gerson_1.jpg,assets/gerson_2.jpg,assets/gerson_3.jpg,assets/gerson_4.jpg">
+        <div class="project-bg" style="background-image: url('assets/gerson_1.jpg');"></div>
+        <div class="project-placeholder">04</div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="tag_brand_identity">Brand Identity</p>
+          <h3 class="project-name">Gerson Souza — Corretor de Imóveis</h3>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-images="assets/acelen.jpg">
+        <div class="project-bg" style="background-image: url('assets/acelen.jpg');"></div>
+        <div class="project-placeholder">05</div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="tag_digital_media">Digital Media</p>
+          <h3 class="project-name">Refinaria Acelen</h3>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-images="assets/guarani_1.jpg,assets/guarani_2.jpg,assets/guarani_3.jpg">
+        <div class="project-bg" style="background-image: url('assets/guarani_1.jpg');"></div>
+        <div class="project-placeholder">06</div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="tag_brand_identity">Brand Identity</p>
+          <h3 class="project-name">Guarani</h3>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-images="assets/mirantte_1.jpg,assets/mirantte_2.jpg,assets/mirantte_3.jpg">
+        <div class="project-bg" style="background-image: url('assets/mirantte_1.jpg');"></div>
+        <div class="project-placeholder">07</div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="tag_visual_concepts">Visual Concepts</p>
+          <h3 class="project-name">Mirantte</h3>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-images="assets/plugz_1.jpg,assets/plugz_2.jpg,assets/plugz_3.jpg,assets/plugz_4.jpg,assets/plugz_5.jpg,assets/plugz_6.jpg,assets/plugz_7.jpg,assets/plugz_8.jpg">
+        <div class="project-bg" style="background-image: url('assets/plugz_1.jpg');"></div>
+        <div class="project-placeholder">08</div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="tag_brand_identity">Brand Identity</p>
+          <h3 class="project-name">Plugz</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div>
+      <p class="section-label reveal" data-i18n="about_label">About me</p>
+      
+      <div class="about-profile">
+        <img src="assets/media__1781710808433.png" alt="William Estevam" class="about-avatar">
+        <div>
+          <h2 class="about-title reveal" style="margin-bottom: 0.5rem; font-size: 2rem;">William Estevam</h2>
+          <p style="color: var(--accent); font-family: 'Syne'; margin-bottom: 1rem;" data-i18n="about_role">Graphic Designer</p>
+        </div>
+      </div>
+
+      <p class="about-text reveal" data-i18n="about_text_1">
+        I'm a graphic designer with a passion for brand identity, packaging, and print. My work is driven by a belief that strong design is not decoration — it's communication.
+      </p>
+      <p class="about-text reveal" data-i18n="about_text_2">
+        With experience across branding, visual systems, and printed materials, I bring creative strategy and craft to every project.
+      </p>
+      <br>
+      <a href="#contact" class="btn-ghost reveal" data-i18n="about_cta">Let's work together →</a>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-item">
+        <p class="skill-name" data-i18n="skill_brand">Brand Identity</p>
+        <p class="skill-desc" data-i18n="skill_brand_desc">Logos, visual systems, typography, color palettes</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name" data-i18n="skill_packaging">Packaging</p>
+        <p class="skill-desc" data-i18n="skill_packaging_desc">Label design, structural concepts, print-ready files</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name" data-i18n="skill_print">Print Design</p>
+        <p class="skill-desc" data-i18n="skill_print_desc">Flyers, posters, brochures, editorial layouts</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name" data-i18n="skill_adobe">Adobe Suite</p>
+        <p class="skill-desc" data-i18n="skill_adobe_desc">Illustrator, Photoshop, InDesign — advanced</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name" data-i18n="skill_art">Art Direction</p>
+        <p class="skill-desc" data-i18n="skill_art_desc">Visual storytelling, moodboards, creative concepts</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name" data-i18n="skill_type">Typography</p>
+        <p class="skill-desc" data-i18n="skill_type_desc">Type selection, pairing, hierarchy, custom lettering</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="services-header reveal">
+      <p class="section-label" data-i18n="services_label">What I do</p>
+      <h2 class="services-title" data-i18n="services_title">Services</h2>
+    </div>
+    <div class="services-list">
+      <div class="service-row reveal">
+        <div class="service-left">
+          <span class="service-num">01</span>
+          <span class="service-name" data-i18n="service_1_name">Brand Identity</span>
+        </div>
+        <p class="service-desc" data-i18n="service_1_desc">Complete visual identity systems — logo, color, type, and brand guidelines.</p>
+      </div>
+      <div class="service-row reveal">
+        <div class="service-left">
+          <span class="service-num">02</span>
+          <span class="service-name" data-i18n="service_2_name">Packaging Design</span>
+        </div>
+        <p class="service-desc" data-i18n="service_2_desc">Shelf-ready packaging concepts with production-ready artwork.</p>
+      </div>
+      <div class="service-row reveal">
+        <div class="service-left">
+          <span class="service-num">03</span>
+          <span class="service-name" data-i18n="service_3_name">Print &amp; Editorial</span>
+        </div>
+        <p class="service-desc" data-i18n="service_3_desc">Flyers, posters, brochures, catalogues, and marketing collateral.</p>
+      </div>
+      <div class="service-row reveal">
+        <div class="service-left">
+          <span class="service-num">04</span>
+          <span class="service-name" data-i18n="service_4_name">Art Direction</span>
+        </div>
+        <p class="service-desc" data-i18n="service_4_desc">Creative direction for campaigns, photo shoots, and brand content.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="contact-eyebrow reveal" data-i18n="contact_eyebrow">Let's connect</p>
+    <h2 class="contact-title reveal">
+      <span data-i18n="contact_title_1">Ready to</span><br><span class="outline" data-i18n="contact_title_2">Work?</span>
+    </h2>
+    <p class="contact-sub reveal" data-i18n="contact_sub">
+      Available for freelance projects. Let's build something great together.
+    </p>
+    <div class="contact-links reveal">
+      <a href="mailto:estevamwilliam.06@gmail.com" class="contact-link">estevamwilliam.06@gmail.com</a>
+      <a href="https://wa.me/5571996847041" target="_blank" class="contact-link">+55 71 99684-7041</a>
+      <a href="https://www.linkedin.com/in/william-estevam-5a8182216/" target="_blank" class="contact-link">LinkedIn</a>
+      <a href="https://www.behance.net/williamsantos110" target="_blank" class="contact-link">Behance</a>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-close" id="lightboxClose">&times;</div>
+    <div class="lightbox-content" id="lightboxContent"></div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>William Estevam © 2026</span>
+    <span data-i18n="footer_role">Graphic Designer</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
