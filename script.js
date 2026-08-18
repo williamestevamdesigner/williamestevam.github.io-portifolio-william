@@ -18,7 +18,7 @@ const translations = {
     hero_scroll:       'Scroll',
 
     work_title:        'Selected<br>Work',
-    work_count:        '08 Projects',
+    work_count:        '09 Projects',
 
     tag_brand_identity:'Brand Identity',
     tag_menu_design:   'Menu Design',
@@ -30,6 +30,37 @@ const translations = {
     about_text_1:      "I'm a graphic designer with a passion for brand identity, packaging, and print. My work is driven by a belief that strong design is not decoration — it's communication.",
     about_text_2:      'With experience across branding, visual systems, and printed materials, I bring creative strategy and craft to every project.',
     about_cta:         "Let's work together →",
+    resume_exp_title:  'Experience',
+    resume_edu_title:  'Education',
+    exp_1_company:     'Três Marias Comunicação',
+    exp_1_role:        'Mid-Level Art Director (2026 - Present)',
+    exp_2_company:     'Casa Da Copia',
+    exp_2_role:        'Designer (2026)',
+    exp_3_company:     'CCF Engenharia e Construção',
+    exp_3_role:        'Art Assistant (2024)',
+    exp_4_company:     'Ideia 3 Comunicação',
+    exp_4_role:        'Art Direction Intern (2022 - 2024)',
+    edu_1_school:      'Universidade Federal do Rio de Janeiro (UFRJ)',
+    edu_1_degree:      'Bachelor\'s Degree in Design (2024)',
+    btn_download_resume: 'Download Resume',
+
+    tab_skills:        'Skills',
+    tab_experience:    'Experience',
+    tab_education:     'Education',
+    tab_certifications:'Certifications',
+
+    exp_1_desc_1:      'Produce approx 20 design pieces daily for major FMCG accounts.',
+    exp_1_desc_2:      'Lead art direction ensuring brand consistency across campaigns.',
+    exp_1_desc_3:      'Manage rapid production timelines for multinational consumer brands.',
+    
+    exp_2_desc_1:      'Designed 20-30 print and digital assets monthly.',
+    exp_2_desc_2:      'Balanced walk-in client requests with daily production demand.',
+
+    exp_3_desc_1:      'Produced 30+ visual communication materials monthly.',
+    exp_3_desc_2:      'Created a standardized workflow to organize design requests.',
+
+    exp_4_desc_1:      'Created graphic design pieces for energy sector and other clients.',
+    exp_4_desc_2:      'Produced 30+ design deliverables monthly across formats.',
 
     skill_brand:         'Brand Identity',
     skill_brand_desc:    'Logos, visual systems, typography, color palettes',
@@ -78,7 +109,7 @@ const translations = {
     hero_scroll:       'Rolar',
 
     work_title:        'Trabalhos<br>Selecionados',
-    work_count:        '08 Projetos',
+    work_count:        '09 Projetos',
 
     tag_brand_identity:'Identidade Visual',
     tag_menu_design:   'Design de Cardápio',
@@ -90,6 +121,37 @@ const translations = {
     about_text_1:      'Sou designer gráfico apaixonado por identidade visual, embalagens e design impresso. Acredito que um design forte não é decoração — é comunicação.',
     about_text_2:      'Com experiência em branding, sistemas visuais e materiais impressos, trago estratégia criativa e excelência de execução a cada projeto.',
     about_cta:         'Vamos trabalhar juntos →',
+    resume_exp_title:  'Experiência',
+    resume_edu_title:  'Formação',
+    exp_1_company:     'Três Marias Comunicação',
+    exp_1_role:        'Diretor de Arte Pleno (2026 - Presente)',
+    exp_2_company:     'Casa Da Copia',
+    exp_2_role:        'Designer (2026)',
+    exp_3_company:     'CCF Engenharia e Construção',
+    exp_3_role:        'Assistente de Arte (2024)',
+    exp_4_company:     'Ideia 3 Comunicação',
+    exp_4_role:        'Estagiário de Direção de Arte (2022 - 2024)',
+    edu_1_school:      'Universidade Federal do Rio de Janeiro (UFRJ)',
+    edu_1_degree:      'Bacharelado em Design (2024)',
+    btn_download_resume: 'Baixar Currículo',
+
+    tab_skills:        'Habilidades',
+    tab_experience:    'Experiência',
+    tab_education:     'Formação',
+    tab_certifications:'Certificações',
+
+    exp_1_desc_1:      'Produzo cerca de 20 peças de design por dia para grandes contas.',
+    exp_1_desc_2:      'Lidero a direção de arte garantindo a consistência da marca em campanhas.',
+    exp_1_desc_3:      'Gerencio prazos rápidos de produção para marcas multinacionais.',
+    
+    exp_2_desc_1:      'Desenvolvi 20-30 peças digitais e impressas mensalmente.',
+    exp_2_desc_2:      'Equilibrei demandas diárias de clientes da loja com a produção de rotina.',
+
+    exp_3_desc_1:      'Produzi mais de 30 materiais de comunicação visual por mês.',
+    exp_3_desc_2:      'Criei um fluxo de trabalho padronizado para organizar as solicitações de design.',
+
+    exp_4_desc_1:      'Criei peças gráficas para o setor de energia e diversos outros clientes.',
+    exp_4_desc_2:      'Produzi mais de 30 entregáveis por mês para vários formatos digitais e impressos.',
 
     skill_brand:         'Identidade Visual',
     skill_brand_desc:    'Logotipos, sistemas visuais, tipografia, paletas de cor',
@@ -138,7 +200,7 @@ const translations = {
     hero_scroll:       'Défiler',
 
     work_title:        'Travaux<br>Sélectionnés',
-    work_count:        '08 Projets',
+    work_count:        '09 Projets',
 
     tag_brand_identity:'Image de Marque',
     tag_menu_design:   'Design de Menu',
@@ -150,6 +212,37 @@ const translations = {
     about_text_1:      "Je suis designer graphique passionné par l'image de marque, les emballages et l'imprimé. Mon travail repose sur la conviction qu'un bon design n'est pas une décoration — c'est une communication.",
     about_text_2:      "Fort d'une expérience en stratégie de marque, en systèmes visuels et en imprimés, j'apporte créativité et savoir-faire à chaque projet.",
     about_cta:         'Travaillons ensemble →',
+    resume_exp_title:  'Expérience',
+    resume_edu_title:  'Éducation',
+    exp_1_company:     'Três Marias Comunicação',
+    exp_1_role:        'Directeur Artistique Confirmé (2026 - Présent)',
+    exp_2_company:     'Casa Da Copia',
+    exp_2_role:        'Designer (2026)',
+    exp_3_company:     'CCF Engenharia e Construção',
+    exp_3_role:        'Assistant Artistique (2024)',
+    exp_4_company:     'Ideia 3 Comunicação',
+    exp_4_role:        'Stagiaire en Direction Artistique (2022 - 2024)',
+    edu_1_school:      'Universidade Federal do Rio de Janeiro (UFRJ)',
+    edu_1_degree:      'Licence en Design (2024)',
+    btn_download_resume: 'Télécharger le CV',
+
+    tab_skills:        'Compétences',
+    tab_experience:    'Expérience',
+    tab_education:     'Éducation',
+    tab_certifications:'Certifications',
+
+    exp_1_desc_1:      'Production d\'environ 20 visuels quotidiens pour des grands comptes.',
+    exp_1_desc_2:      'Direction artistique garantissant la cohérence de la marque sur les campagnes.',
+    exp_1_desc_3:      'Gestion des délais de production rapides pour des marques grand public.',
+    
+    exp_2_desc_1:      'Conception de 20-30 supports imprimés et numériques par mois.',
+    exp_2_desc_2:      'Gestion simultanée des demandes clients en boutique et de la production quotidienne.',
+
+    exp_3_desc_1:      'Production de plus de 30 supports de communication visuelle par mois.',
+    exp_3_desc_2:      'Création d\'un flux de travail standardisé pour organiser les demandes de design.',
+
+    exp_4_desc_1:      'Création de supports graphiques pour le secteur de l\'énergie et autres clients.',
+    exp_4_desc_2:      'Production de plus de 30 livrables mensuels (formats numériques et imprimés).',
 
     skill_brand:         'Image de Marque',
     skill_brand_desc:    'Logos, systèmes visuels, typographie, palettes de couleurs',
@@ -274,6 +367,20 @@ const obs = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 
 reveals.forEach(r => obs.observe(r));
+
+// =============================================
+// TABS
+// =============================================
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    
+    btn.classList.add('active');
+    const target = document.getElementById(btn.getAttribute('data-tab'));
+    if(target) target.classList.add('active');
+  });
+});
 
 // =============================================
 // LIGHTBOX
